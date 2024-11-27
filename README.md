@@ -6,8 +6,7 @@ In this project, I created a FastAPI that serves as a REST API to manage profile
 
 ### 1. Clone the Repository
 ```
-git clone <repository-url>
-cd <repository-directory>
+gh repo clone SaraDeutsch/API_backend_exercise
 ```
 
 ### 2. Install Dependencies

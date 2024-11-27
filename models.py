@@ -23,7 +23,7 @@ class Contract(Base):
     # relationships- contract with profile and jobs. 
     # contract can only have one profile (primary key above) and each contract can have multiple jobs
     profile = relationship("Profile", back_populates="contracts")
-    jobs = relationship("Job", back_populates="contracts")
+    jobs = relationship("Job", back_populates="contract")
 
 class Job(Base):
     __tablename__ = "jobs"

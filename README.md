@@ -1,6 +1,6 @@
 # Python Backend Exercise- API
 
-In this project, I created a FastAPI that serves as a REST API to manage profiles, jobs, payments, and payments. 
+In this project, I created a FastAPI that serves as a REST API to manage profiles, jobs, payments, and balances. 
 
 ## How to Launch the Application
 

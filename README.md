@@ -62,7 +62,7 @@ GET /
 #### Create Profile
 
 ```http
-  POST /create-profile
+POST /create-profile
 ```
 
 | Parameter | Type     | Description                       |
@@ -85,7 +85,7 @@ GET /profiles
 #### Create Contract
 
 ```http
-  POST /create-contract
+POST /create-contract
 ```
 
 | Parameter | Type     | Description                       |
@@ -95,7 +95,7 @@ GET /profiles
 #### Get Contract Details
 
 ```http
-  GET /contracts/{contract_id}
+GET /contracts/{contract_id}
 ```
 
 | Parameter | Type     | Description                       |
@@ -105,7 +105,7 @@ GET /profiles
 #### Get Current Contracts for the Current User
 
 ```http
-  GET /contracts
+GET /contracts
 ```
 
 | Parameter | Type     | Description                       |
@@ -117,7 +117,7 @@ GET /profiles
 
 #### Add Job to Contract
 ```http
-  POST /add-job
+POST /add-job
 ```
 
 | Parameter | Type     | Description                       |
@@ -128,7 +128,7 @@ GET /profiles
 
 #### Get Unpaid Jobs
 ```http
-  GET /jobs/unpaid
+GET /jobs/unpaid
 ```
 
 | Parameter | Type     | Description                       |
@@ -137,7 +137,7 @@ GET /profiles
 
 #### Pay for a Job
 ```http
-  POST /jobs/{job_id}/pay
+POST /jobs/{job_id}/pay
 ```
 
 | Parameter | Type     | Description                       |
@@ -148,7 +148,7 @@ GET /profiles
 
 #### Deposit Balance
 ```http
-  POST /balances/deposit/{user_id}
+POST /balances/deposit/{user_id}
 ```
 
 | Parameter | Type     | Description                       |
@@ -160,7 +160,7 @@ GET /profiles
 
 #### Get Best Profession
 ```http
-  GET /admin/best-profession
+GET /admin/best-profession
 ```
 
 | Parameter | Type     | Description                       |
@@ -170,7 +170,7 @@ GET /profiles
 
 #### Get Best Clients
 ```http
-  GET /admin/best-clients
+GET /admin/best-clients
 ```
 
 | Parameter | Type     | Description                       |
